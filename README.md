@@ -1,4 +1,12 @@
-# Dobby
+# Quiet Dobby
+
+> Not now, Dobby. We have _guests_! 
+
+Quiet Dobby does exactly the same thing as Dobby &mdash; except he alerts you of nothing.
+
+----
+
+### Dobby
 
 [![Version](https://img.shields.io/packagist/v/tfrommen/dobby.svg)](https://packagist.org/packages/tfrommen/dobby)
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://github.com/tfrommen/Dobby)
