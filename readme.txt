@@ -45,7 +45,7 @@ This plugin requires **PHP 5.4**.
 * Only ignore images for export (e.g., the generated ZIP file).
 
 = 1.1.0 =
-* Add `\tfrommen\Dobby\FILTER_THRESHOLD` to filter the minimum number of admin notices required for Dobby to take action.
+* Add `\pixl\QuietDobby\FILTER_THRESHOLD` to filter the minimum number of admin notices required for Dobby to take action.
 * Add ... MAGIC.
 * Make Dobby reveal the captured admin notices once and for all instead of toggling them.
 * Make Dobby pick up the according notice level based on what admin notices he captured—error wins over warning, otherwise it is an info.

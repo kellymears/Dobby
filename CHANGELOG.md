@@ -57,7 +57,7 @@ WordPress.org release.
 
 ### Added
 
-- Add `\tfrommen\Dobby\FILTER_THRESHOLD` to filter the minimum number of admin notices required for Dobby to take action, see [#4](https://github.com/tfrommen/Dobby/issues/4).
+- Add `\pixl\QuietDobby\FILTER_THRESHOLD` to filter the minimum number of admin notices required for Dobby to take action, see [#4](https://github.com/tfrommen/Dobby/issues/4).
 - Add ... ✨ MAGIC ✨.
 
 ### Changed

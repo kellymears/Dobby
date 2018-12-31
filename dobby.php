@@ -1,17 +1,17 @@
 <?php # -*- coding: utf-8 -*-
 
 /*
- * Plugin Name: Dobby
- * Plugin URI:  https://wordpress.org/plugins/wp-dobby/
- * Description: Dobby, the friendly Admin Elf, takes care of all your (unwanted) admin notices.
- * Author:      Thorsten Frommen
- * Author URI:  https://tfrommen.de
+ * Plugin Name: 🤫&nbsp;Quiet Dobby
+ * Plugin URI:  https://tinypixel.io/
+ * Description: Dobby, the friendly Admin Elf, silently handles all your (unwanted) admin notices. Forked from Thorsten Frommen <https://tfrommen.de>.
+ * Author:      Tiny Pixel Collective, Kelly Mears <developers@tinypixel.io>
+ * Author URI:  https://tinypixel.io
  * Version:     1.3.0
- * Text Domain: wp-dobby
+ * Text Domain: wp-quiet-dobby
  * License:     MIT
  */
 
-namespace tfrommen\Dobby;
+namespace pixl\QuietDobby;
 
 defined( 'ABSPATH' ) || die();
 
@@ -73,17 +73,10 @@ function bootstrap() {
 		<div id="<?php echo esc_attr( $closet_id ); ?>" class="hide-if-js">
 			<?php
 			// @codingStandardsIgnoreLine
-			echo $contents;
+			// echo $contents;
 			?>
 		</div>
 		<?php
-		wp_enqueue_script(
-			'dobby',
-			plugin_dir_url( __FILE__ ) . 'assets/js/dobby.js',
-			[ 'jquery' ],
-			filemtime( plugin_dir_path( __FILE__ ) . 'assets/js/dobby.js' )
-		);
-
 		/**
 		 * Filters the minimum number of admin notices required for Dobby to take action.
 		 *

@@ -39,7 +39,7 @@ In order to customize certain aspects of the plugin, it provides you with severa
 For each of these, a short description as well as a code example on how to alter the default behavior is given below.
 Just put the according code snippet in your theme's `functions.php` file or your _customization_ plugin, or to some other appropriate place.
 
-#### `\tfrommen\Dobby\FILTER_THRESHOLD` (`dobby.threshold`)
+#### `\pixl\QuietDobby\FILTER_THRESHOLD` (`dobby.threshold`)
 
 This filter lets you customize the minimum number of admin notices required for Dobby to take action.
 The default value is `1`.
@@ -53,7 +53,7 @@ The default value is `1`.
  *
  * @param int $threshold Required minimum number of admin notices.
  */
-add_filter( \tfrommen\Dobby\FILTER_THRESHOLD, function () {
+add_filter( \pixl\QuietDobby\FILTER_THRESHOLD, function () {
 
 	return 3;
 } );
