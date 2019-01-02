@@ -1,5 +1,5 @@
 {
-  "name": "tfrommen/dobby",
+  "name": "tiny-pixel/quiet-dobby",
   "description": "Dobby, the friendly Admin Elf, takes care of all your (unwanted) admin notices.",
   "type": "wordpress-plugin",
   "keywords": [
@@ -10,6 +10,12 @@
   "license": "MIT",
   "authors": [
     {
+      "name": "Kelly Mears",
+      "email": "developers@tinypixel.io",
+      "homepage": "https://tinypixel.io",
+      "role": "Developer"
+    },
+    {
       "name": "Thorsten Frommen",
       "email": "info@tfrommen.de",
       "homepage": "https://twitter.com/thorstenfrommen",
@@ -17,8 +23,7 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/tfrommen/Dobby/issues",
-    "forum": "https://wordpress.org/support/plugin/wp-dobby/",
+    "issues": "https://github.com/pixelcollective/Quiet-Dobby",
     "source": "https://github.com/tfrommen/Dobby"
   },
   "require": {
